@@ -19,7 +19,7 @@ TIMEFRAME = "1D"
 
 # data processing 
 SEQUENCE_LENGTH = 60 #num of days used for predicition input
-PREDICTION_DAYS = 5 #num of days to prdicit ahead
+HORIZON = 5 #num of days to prdicit ahead
 FEATURE_COLS = ["open", "high", "low", "close", "volume"]
 TARGET_COL = "close"
 TRAIN_SPLIT = 0.8 #training data
